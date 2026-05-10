@@ -1,0 +1,115 @@
+<!-- 76981 -->
+
+<!DOCTYPE html>
+<html lang = "pl"> 
+<head>
+    <meta charset="UTF-8">
+    <title>Artem Hromliuk CV</title>
+     <link id="Css_Styl" rel = "stylesheet" href = "green.css">
+</head>
+<body>
+    <div class="top-bar"><span>CV</span>
+    <div class ="button">
+        <button id="Button_Styl" type="button">Zmień Styl!</button>
+        <button id="Button_Ukryj" type="button"> Ukryj sekcję Kontakt</button>
+    </div>
+    
+    </div>
+     
+     
+    <header>
+        <h1>Artem Hromliuk</h1>
+        <img src = "zdjecia.jpg" alt ="Moje foto" width="255" height="290">
+    </header>
+ 
+    <main>
+
+        <section id="Sekcja_Kontakt">
+            <h2>
+                Kontakt:
+            </h2>
+            <p> Mój e-mail: <a href="mailto:ahromli1@stu.vistula.edu.pl">ahromli1@stu.vistula.edu.pl</a></p>
+            <p> Mój numer telefonu: <a href="tel:+48576456487">+48 57 64 56 487</a></p>
+            <p> Miasto w którym mieszkam: Warszawa</p>
+            <p> Moje konto GitHub: <a href = "https://github.com/76981ArtemHromliuk" target ="_blank" rel="noopener noreferrer"> https://github.com/76981ArtemHromliuk </a></p>
+            <p> Moje konto YouTube: <a href = "https://www.youtube.com/@hromliuk1781" target = "_blank" rel = "noopener noreferrer">https://www.youtube.com/@hromliuk1781 </a></p>
+        </section>
+
+
+        <section>
+            <h2>O mnie:</h2>
+             
+            <p> Jestem studentem pierwszego roku na Uniwersytecie Vistula.</p>
+            <p> Przez cały semestr uczyłem się C#, a także poznałem podstawy MySQL.</p>
+            <p> Lubię tworzyć aplikacje w języku C# i "eksperymentować" z kodem.</p>
+            <p> Chętnie chce nauczyć się więcej o Web Dev. </p>
+        </section>
+
+
+        <section>
+            <h2>Umiejętności: </h2>
+            <ul id = "ulUmiejetnosci">
+                
+            </ul>
+        </section>
+
+        <section>
+            <h2>Doświadczenie:</h2>
+            <article>
+                <p>Tworzenie aplikacji WinForms w C#</p>
+            </article>
+
+            <article>
+                <p>Tworzenie prostych stron internetowych</p>
+            </article>
+        </section>
+
+        <section>
+            <h2>Edukacja:</h2>
+            <p>Online Kurs języka Python. - 2022</p>
+            <p>Akademia Finansów i Biznesu Vistula, Kierunek: Inżynieria Komputerowa. - 2025</p>
+        </section>
+
+        <section>
+            <h2>Projekty: </h2> 
+            <ul id = "ulProjekty">
+            </ul>
+        </section>
+
+        <section id = "secNotatka">
+            <h2>Notatki</h2>
+            <input id="inpNotatka" type="text" placeholder="Napisz notatkę">
+            <button onclick="funcNotatka()" id = "btnNotatka">Dodaj Notatkę</button>
+
+            <ul id="ulNotatka"></ul>
+        </section>
+
+        <section id = "secInputFormularz"> 
+        <div> <!--76981-->
+            <h2>Wyślij mi e-mail:</h2>
+            <p>Imie: </p>
+            <input id ="idimie" type="text">
+            <p>Nazwisko: </p>
+            <input id ="idnazwisko" type="text">
+            
+            <p>Email: </p>
+            <input id = "idemail" type = "email">
+            
+            <button id ="btnWyslij" onclick="funcSprawdzenieDanych(); btnWyslijBackEnd()">Wyślij!(sprawdź błędy)</button> 
+            <p id="errorProvider"></p>
+        </div>  
+
+        <div>
+            <p>Wiadomość: </p>  
+           <textarea rows = 5 id="idwiadomosc" placeholder="Napisz wiadomość..."></textarea>
+        </div>
+    </section>
+    </main>
+<script src="script.js"></script>
+<footer>
+  <p>Artem Hromliuk 76981</p>
+</footer>
+</body>
+</html>
+
+<!-- 76981 -->

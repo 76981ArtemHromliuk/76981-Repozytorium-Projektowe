@@ -1,0 +1,13 @@
+{
+  "umiejetnosci": [
+    "C# - Aplikacje WinForms i konsolowe",
+    "HTML - Wideo, Audio SVG Zdjęcia",
+    "Python - Python Junior",
+    "Git, GitHub",
+    "SQL - MySQL"
+  ],
+  "projekty": [
+    "Symulator bankomatu - aplikacja WinForms w C#. Umożliwia wykonywanie operacji takich jak wypłata, wpłata, sprawdzanie salda oraz wybór waluty.",
+    "Symulator automatu vendingowego - aplikacja Winforms w C#. Pozwala na wybór produktów, obsługę płatności oraz wydawanie reszty."
+  ]
+}
